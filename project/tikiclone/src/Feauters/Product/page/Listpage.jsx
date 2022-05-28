@@ -131,7 +131,12 @@ function Listpage(props) {
                 variant="outlined"
                 shape="rounded"
                 onChange={handlePagination}
-                sx={{ display: "flex", justifyContent: "center", mt: "32px" }}
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  mt: "32px",
+                  pb: "20px",
+                }}
               />
             </Paper>
           </Grid>
