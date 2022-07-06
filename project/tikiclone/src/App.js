@@ -1,6 +1,6 @@
 import { Route, Switch } from "react-router-dom";
+import Header from "./components/Header";
 import FeatersProduct from "./Feauters";
-import Header from "./Feauters/Product/component/Header";
 
 function App() {
   return (
